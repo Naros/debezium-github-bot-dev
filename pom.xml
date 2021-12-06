@@ -90,6 +90,32 @@
 
   <build>
     <plugins>
+      <!-- When building the JIB image, this makes sure the .env file gets copied into the container -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.2.0</version>
+        <executions>
+          <execution>
+            <id>jib-copy-env-file</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/src/main/jib/work</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>.</directory>
+                  <includes>
+                    <include>.env</include>
+                  </includes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
       <plugin>
         <groupId>net.revelc.code.formatter</groupId>
         <artifactId>formatter-maven-plugin</artifactId>
