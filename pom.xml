@@ -19,7 +19,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <version.quarkus.github-app>1.2.1</version.quarkus.github-app>
+    <version.quarkus.github-app>1.4.1</version.quarkus.github-app>
     <version.quarkus>2.5.1.Final</version.quarkus>
     <version.compiler-plugin>3.8.1</version.compiler-plugin>
     <version.surefire-plugin>3.0.0-M5</version.surefire-plugin>
