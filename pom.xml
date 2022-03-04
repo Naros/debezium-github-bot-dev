@@ -25,7 +25,7 @@
     <version.surefire-plugin>3.0.0-M5</version.surefire-plugin>
     <version.code.formatter>2.15.0</version.code.formatter>
     <version.impsort>1.6.2</version.impsort>
-    <version.assertj>3.21.0</version.assertj>
+    <version.assertj>3.22.0</version.assertj>
 
     <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
     <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
