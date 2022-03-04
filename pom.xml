@@ -27,6 +27,8 @@
     <version.impsort>1.6.2</version.impsort>
     <version.assertj>3.22.0</version.assertj>
 
+    <version.formatter.maven.plugin>2.18.0</version.formatter.maven.plugin>
+
     <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
     <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
   </properties>
@@ -119,7 +121,7 @@
       <plugin>
         <groupId>net.revelc.code.formatter</groupId>
         <artifactId>formatter-maven-plugin</artifactId>
-        <version>2.17.0</version>
+        <version>${version.formatter.maven.plugin}</version>
         <executions>
           <execution>
             <phase>process-sources</phase>
