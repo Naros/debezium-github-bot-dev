@@ -36,11 +36,9 @@ public class CheckRun {
 
     /**
      * Run the task
-     * 
+     *
      * @return the output from the task, never null.
-     * 
-     * @throws IOException
-     *             if an exception occurred
+     * @throws IOException if an exception occurred
      */
     CheckRunOutput run() throws IOException {
         // Run the task

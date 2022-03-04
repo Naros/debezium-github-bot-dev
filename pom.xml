@@ -23,11 +23,11 @@
     <version.quarkus>2.7.3.Final</version.quarkus>
     <version.compiler-plugin>3.8.1</version.compiler-plugin>
     <version.surefire-plugin>3.0.0-M5</version.surefire-plugin>
-    <version.code.formatter>2.15.0</version.code.formatter>
-    <version.impsort>1.6.2</version.impsort>
     <version.assertj>3.22.0</version.assertj>
 
     <version.formatter.maven.plugin>2.18.0</version.formatter.maven.plugin>
+    <version.impsort.maven.plugin>1.6.2</version.impsort.maven.plugin>
+    <version.resources.maven.plugin>3.2.0</version.resources.maven.plugin>
 
     <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
     <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
@@ -96,7 +96,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
-        <version>3.2.0</version>
+        <version>${version.resources.maven.plugin}</version>
         <executions>
           <execution>
             <id>jib-copy-env-file</id>
@@ -137,7 +137,7 @@
       <plugin>
         <groupId>net.revelc.code</groupId>
         <artifactId>impsort-maven-plugin</artifactId>
-        <version>1.6.2</version>
+        <version>${version.impsort.maven.plugin}</version>
         <configuration>
           <removeUnused>true</removeUnused>
           <groups>java.,javax.,org.,com.,io.</groups>
