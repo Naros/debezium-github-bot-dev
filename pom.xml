@@ -24,7 +24,7 @@
     <version.assertj>3.22.0</version.assertj>
 
     <version.compiler-plugin>3.10.0</version.compiler-plugin>
-    <version.surefire-plugin>3.0.0-M5</version.surefire-plugin>
+    <version.surefire-plugin>3.0.0-M6</version.surefire-plugin>
     <version.formatter.maven.plugin>2.18.0</version.formatter.maven.plugin>
     <version.impsort.maven.plugin>1.6.2</version.impsort.maven.plugin>
     <version.resources.maven.plugin>3.2.0</version.resources.maven.plugin>
