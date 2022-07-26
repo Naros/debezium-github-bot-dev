@@ -27,7 +27,7 @@
     <version.surefire-plugin>3.0.0-M6</version.surefire-plugin>
     <version.formatter.maven.plugin>2.19.0</version.formatter.maven.plugin>
     <version.impsort.maven.plugin>1.7.0</version.impsort.maven.plugin>
-    <version.resources.maven.plugin>3.2.0</version.resources.maven.plugin>
+    <version.resources.maven.plugin>3.3.0</version.resources.maven.plugin>
 
     <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
     <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
