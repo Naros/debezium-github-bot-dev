@@ -5,14 +5,14 @@
  */
 package io.debezium.github.bot;
 
-import javax.enterprise.event.Observes;
-import javax.inject.Inject;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import io.debezium.github.bot.config.DeploymentConfig;
 import io.quarkus.runtime.StartupEvent;
+
+import jakarta.enterprise.event.Observes;
+import jakarta.inject.Inject;
 
 /**
  * The entrypoint to the Debezium GitHub Bot application.

@@ -9,8 +9,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.inject.Inject;
-
 import org.kohsuke.github.GHEventPayload.PullRequest;
 import org.kohsuke.github.GHIssueComment;
 import org.kohsuke.github.GHIssueState;
@@ -27,6 +25,8 @@ import io.quarkiverse.githubapp.event.PullRequest.Edited;
 import io.quarkiverse.githubapp.event.PullRequest.Opened;
 import io.quarkiverse.githubapp.event.PullRequest.Reopened;
 import io.quarkiverse.githubapp.event.PullRequest.Synchronize;
+
+import jakarta.inject.Inject;
 
 /**
  * Handler that responds to pull request events.
