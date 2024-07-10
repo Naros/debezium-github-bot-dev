@@ -21,7 +21,7 @@
 
     <version.quarkus.github-app>2.6.0</version.quarkus.github-app>
     <version.quarkus>3.12.2</version.quarkus>
-    <version.assertj>3.26.0</version.assertj>
+    <version.assertj>3.26.3</version.assertj>
     <version.mockito>5.2.0</version.mockito>
 
     <version.compiler-plugin>3.13.0</version.compiler-plugin>
