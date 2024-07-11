@@ -25,7 +25,7 @@
     <version.mockito>5.2.0</version.mockito>
 
     <version.compiler-plugin>3.13.0</version.compiler-plugin>
-    <version.surefire-plugin>3.3.0</version.surefire-plugin>
+    <version.surefire-plugin>3.3.1</version.surefire-plugin>
     <version.formatter.maven.plugin>2.24.1</version.formatter.maven.plugin>
     <version.impsort.maven.plugin>1.11.0</version.impsort.maven.plugin>
     <version.resources.maven.plugin>3.3.1</version.resources.maven.plugin>
