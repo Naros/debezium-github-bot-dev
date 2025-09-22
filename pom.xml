@@ -20,7 +20,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
     <version.quarkus.github-app>2.11.0</version.quarkus.github-app>
-    <version.quarkus>3.26.3</version.quarkus>
+    <version.quarkus>3.28.0</version.quarkus>
     <version.assertj>3.27.4</version.assertj>
     <version.mockito>5.19.0</version.mockito>
     <version.mockito.inline>5.2.0</version.mockito.inline>
