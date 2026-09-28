@@ -22,7 +22,7 @@
     <version.quarkus.github-app>2.16.0</version.quarkus.github-app>
     <version.quarkus>3.39.4</version.quarkus>
     <version.assertj>3.27.7</version.assertj>
-    <version.mockito>5.23.0</version.mockito>
+    <version.mockito>5.24.0</version.mockito>
     <version.mockito.inline>5.2.0</version.mockito.inline>
 
     <version.compiler-plugin>3.16.0</version.compiler-plugin>
